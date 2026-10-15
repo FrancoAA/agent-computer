@@ -2,7 +2,19 @@
   "name": "agent-computer",
   "version": "0.1.0",
   "description": "Give the agent its own Linux desktop (Chromium, Blender, LibreOffice, GIMP) in Docker that you can watch live.",
-  "author": { "name": "Franco Alarcon", "email": "franco.alarcon@gmail.com" },
+  "author": {
+    "name": "Franco Alarcon",
+    "email": "franco.alarcon@gmail.com"
+  },
   "license": "MIT",
-  "keywords": ["computer-use", "desktop", "browser", "blender", "docker", "sandbox"]
+  "keywords": [
+    "computer-use",
+    "desktop",
+    "browser",
+    "blender",
+    "docker",
+    "sandbox"
+  ],
+  "homepage": "https://github.com/FrancoAA/agent-computer",
+  "repository": "https://github.com/FrancoAA/agent-computer"
 }

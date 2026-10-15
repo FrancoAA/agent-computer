@@ -29,5 +29,10 @@
     "esbuild": "^0.25.12",
     "typescript": "^5.9.2"
   },
-  "author": "Franco Alarcon <franco.alarcon@gmail.com>"
+  "author": "Franco Alarcon <franco.alarcon@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoAA/agent-computer.git"
+  },
+  "homepage": "https://skills.sh/FrancoAA/agent-computer"
 }

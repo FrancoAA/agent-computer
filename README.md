@@ -1,9 +1,9 @@
 # agent-computer
 
-[![skills.sh](https://skills.sh/b/OWNER/agent-computer)](https://skills.sh/OWNER/agent-computer)
+[![skills.sh](https://skills.sh/b/FrancoAA/agent-computer)](https://skills.sh/FrancoAA/agent-computer)
 
 ```bash
-npx skills add OWNER/agent-computer
+npx skills add FrancoAA/agent-computer
 ```
 
 Give any coding agent its own Linux desktop: a Docker container with XFCE, Chromium, Blender, LibreOffice, GIMP,
@@ -19,7 +19,7 @@ It isn't tied to one agent. The same computer can be used three ways:
 
 ## Install as a skill (recommended)
 
-`npx skills add OWNER/agent-computer` installs it for Claude Code, Codex, pi, Cursor and other agents (add `-g` for
+`npx skills add FrancoAA/agent-computer` installs it for Claude Code, Codex, pi, Cursor and other agents (add `-g` for
 all projects). Manual alternatives:
 
 The skill folder `skills/agent-computer/` is self-contained: `SKILL.md`, a single bundled CLI
@@ -39,7 +39,7 @@ Or unzip `release/agent-computer-skill.zip` (`npm run pack:skill`) into any of:
 | pi | `~/.pi/agent/skills/`, or `pi --skill <folder>` |
 
 Claude Code can also install it as a plugin:
-`/plugin install agent-computer --marketplace OWNER/agent-computer` (Claude Code 2.1.275+).
+`/plugin install agent-computer --marketplace FrancoAA/agent-computer` (Claude Code 2.1.275+).
 
 On first use the skill builds the desktop image in the background (~10 minutes, ~9 GB) and tells the agent to
 retry; `agent-computer image status` shows progress.

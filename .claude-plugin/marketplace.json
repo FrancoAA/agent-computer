@@ -1,6 +1,10 @@
 {
   "name": "agent-computer",
-  "owner": { "name": "Franco Alarcon", "email": "franco.alarcon@gmail.com" },
+  "description": "agent-computer: give coding agents their own Linux desktop (browser, Blender, office apps) in Docker.",
+  "owner": {
+    "name": "Franco Alarcon",
+    "email": "franco.alarcon@gmail.com"
+  },
   "plugins": [
     {
       "name": "agent-computer",
