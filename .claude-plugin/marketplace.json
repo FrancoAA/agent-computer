@@ -1,0 +1,11 @@
+{
+  "name": "agent-computer",
+  "owner": { "name": "Franco Alarcon", "email": "franco.alarcon@gmail.com" },
+  "plugins": [
+    {
+      "name": "agent-computer",
+      "source": "./",
+      "description": "Give the agent its own Linux desktop (Chromium, Blender, LibreOffice, GIMP) in Docker that you can watch live."
+    }
+  ]
+}
